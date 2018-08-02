@@ -98,6 +98,7 @@ def stylization(stylization_module, smoothing_module, content_image_path, style_
             styl_seg = styl_seg_remapping.process(styl_seg)
 
         if save_intermediate:
+            print("save intermediate")
             with Timer("Elapsed time in stylization: %f"):
                 stylized_img = stylization_module.transform(cont_img, styl_img, cont_seg, styl_seg)
             if ch != new_ch or cw != new_cw:
