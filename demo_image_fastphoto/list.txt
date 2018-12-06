@@ -1,0 +1,5 @@
+frankfurt_000000_001751_leftImg8bit.png
+munster_000000_000019_leftImg8bit.png
+munster_000003_000019_leftImg8bit.png
+munster_000044_000019_leftImg8bit.png
+munster_000052_000019_leftImg8bit.png
